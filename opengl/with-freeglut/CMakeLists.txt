@@ -12,4 +12,4 @@ find_package(GLUT REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS})
 
 # И указать библиотеки для линковки
-target_link_libraries(gluttest ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+target_link_libraries(gluttest ${OPENGL_LIBRARIES} freeglut)
